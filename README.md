@@ -3,7 +3,7 @@ Analyze Bond Lengths in VASP POSCAR Files
 
 This script calculates and plots bond lengths for a given input file in the POSCAR format. It uses the spglib and ase libraries to perform space group analysis and neighbor list generation, respectively.
 
-Requirements
+# Requirements
 
 This script requires Python 3 and the following Python libraries:
 
@@ -12,7 +12,7 @@ ase
 matplotlib
 You can install these libraries using the pip package manager:
 
-pip install spglib ase matplotlib
+"pip install spglib ase matplotlib"
 
 where input_file is the path to your input file in the POSCAR format and cutoff is the maximum distance to consider a bond.
 
@@ -20,7 +20,7 @@ The script will print the average bond lengths for Nb-O, B-O, and K-O bonds for 
 
 
 
-bond_length_comparison.py 
+# bond_length_comparison.py 
 
 Script to Analyze Bond Lengths in VASP POSCAR Files Overview: This script is designed to analyze bond lengths in VASP POSCAR files and plot histograms of the bond lengths. Specifically, the script calculates the bond lengths between Nb/B/K atoms and O atoms, and generates histograms of the bond lengths for two different structures. Usage: The script can be run using the following command format:
 
