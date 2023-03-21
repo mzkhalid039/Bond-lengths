@@ -7,9 +7,9 @@ This script calculates and plots bond lengths for a given input file in the POSC
 
 This script requires Python 3 and the following Python libraries:
 
-spglib
-ase
-matplotlib
+spglib,
+ase,
+matplotlib,
 You can install these libraries using the pip package manager:
 
 "pip install spglib ase matplotlib"
