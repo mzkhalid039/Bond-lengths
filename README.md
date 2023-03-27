@@ -1,5 +1,5 @@
 # Bond-lengths
-Analyze Bond Lengths in VASP POSCAR Files
+Analyze Bond Lengths in VASP POSCAR Files for a model system of quaternary compound (4 elements, K, Nb, B, O)
 
 This script calculates and plots bond lengths for a given input file in the POSCAR format. It uses the spglib and ase libraries to perform space group analysis and neighbor list generation, respectively.
 
